@@ -53,7 +53,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
       s.add_development_dependency(%q<factory_girl>, [">= 0"])
-      s.add_runtime_dependency(%q<spreadsheet>, ["> 0"])
       s.add_development_dependency(%q<rspec>, ["> 1.2.3"])
     else
       s.add_dependency(%q<spreadsheet>, [">= 0"])
@@ -62,7 +61,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<factory_girl>, [">= 0"])
-      s.add_dependency(%q<spreadsheet>, ["> 0"])
       s.add_dependency(%q<rspec>, ["> 1.2.3"])
     end
   else
@@ -72,7 +70,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<factory_girl>, [">= 0"])
-    s.add_dependency(%q<spreadsheet>, ["> 0"])
     s.add_dependency(%q<rspec>, ["> 1.2.3"])
   end
 end
